@@ -1,0 +1,53 @@
+@font-face {
+  font-family: super_bright;
+  src: url(super_bright/super_bright.ttf);
+}
+
+body {
+  background-color: #ffffff;
+  font-family: super_bright;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 5em;
+  display: flex;
+  background: #222121;
+  box-shadow: 0 5px 10px rgba(41, 35, 22, 0.2);
+}
+
+.logo-container {
+  margin-right: auto;
+}
+
+.logo-container img {
+  height: 75px;
+  margin-left: 15%;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 6px 2px;
+  text-decoration: none;
+  overflow: hidden;
+  margin: 0 12px;
+}
+
+.nav-link:hover {
+  color: rgb(241, 211, 73);
+}
+
+.item img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.owl-carousel {
+    padding-top: 12px;
+}
